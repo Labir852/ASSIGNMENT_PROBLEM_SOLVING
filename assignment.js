@@ -26,12 +26,12 @@ function brickCalculator(floor)
     else if (floor>=11 && floor <=20)
     {
         let upperPartFeet = (floor-10) * 12;
-        brickAmount = 150000 + (upperPartFeet * 1000);
+        brickAmount = 150000 + (upperPartFeet * 1000);      // 150000 is brickAmount of lower 10 floors
     }
     else if(floor > 20)
     {
         let upperPartFeet = (floor - 20) * 10;
-        brickAmount = 150000 + 120000 + (upperPartFeet * 1000);
+        brickAmount = 150000 + 120000 + (upperPartFeet * 1000);   // 15000 is brickAmount of lower 10 floors && 120000 is brickAmount of middle 10 floors
     }
     return brickAmount;
 }
@@ -59,7 +59,7 @@ console.log(FEET);
 let WOOD = woodCalculator(2,1,2);
 console.log(WOOD);
 
-let BRICK = brickCalculator(25);
+let BRICK = brickCalculator(26);
 console.log(BRICK);
 
 let FRIEND = tinyFriend(["jhankar", "mahbub","tanvir","anjum","labir","rasel"]);
