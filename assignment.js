@@ -51,6 +51,8 @@ function tinyFriend(array)
     return shortestName;
 }
 
+                                                                        /* IMPLEMENTATION OF FUNCTION */
+
 let FEET = feetToMile(50000);
 console.log(FEET);
  
