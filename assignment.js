@@ -31,7 +31,7 @@ function brickCalculator(floor)
     else if(floor > 20)
     {
         let upperPartFeet = (floor - 20) * 10;
-        brickAmount = 150000 + 120000 + (upperPartFeet * 1000);   // 15000 is brickAmount of lower 10 floors && 120000 is brickAmount of middle 10 floors
+        brickAmount = 150000 + 120000 + (upperPartFeet * 1000);   // 150000 is brickAmount of lower 10 floors && 120000 is brickAmount of middle 10 floors
     }
     return brickAmount;
 }
